@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+#modal{
+    background: #fff;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+    color: aliceblue;
+    padding: 140px 0px;
+}
+
+button.restart{
+    min-width: 150px;
+    min-height: 48px;
+    border-radius: 10px;
+    background: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
